@@ -373,7 +373,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfc/libpn548ad_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn548ad_fw.so
 
 PRODUCT_PACKAGES += \
-    vendor.nxp.hardware.nfc@1.2-service \
+    vendor.nxp.hardware.nfc@2.0-service \
     com.android.nfc_extras \
     com.nxp.nfc.nq \
     com.nxp.nfc.nq.xml \
