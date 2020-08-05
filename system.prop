@@ -51,6 +51,8 @@ ro.af.client_heap_size_kbyte=7168
 # Bluetooth
 bluetooth.hfp.client=1
 vendor.qcom.bluetooth.soc=smd
+persist.vendor.btstack.enable.splita2dp=false
+ro.bluetooth.library_name=libbluetooth_qti.so
 ro.bluetooth.hfp.ver=1.7
 ro.bluetooth.dun=true
 ro.bluetooth.sap=true
@@ -61,6 +63,7 @@ ro.qualcomm.bluetooth.map=true
 ro.qualcomm.bluetooth.nap=true
 ro.qualcomm.bluetooth.opp=true
 ro.qualcomm.bluetooth.pbap=true
+ro.vendor.bluetooth.wipower=false
 
 # Camera
 vidc.enc.dcvs.extra-buff-count=2
