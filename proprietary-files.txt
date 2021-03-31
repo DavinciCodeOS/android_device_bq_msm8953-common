@@ -483,6 +483,7 @@ vendor/etc/cacert_location.pem|0789bf799c7e45d352a83e2f79ddb0cea86db85b
 vendor/etc/flp.conf|8c8642685c225fa0b715c284481018a527dae451
 vendor/etc/izat.conf|4911ce6f9aab3b48f7923b11f2cf7f0a10738138|e83d3bc3a69f7b3b07d67f954f3ace4f9ba0a431
 vendor/etc/lowi.conf|b8774138f3b856883528608e19275d050ab7d263
+vendor/etc/seccomp_policy/gnss@2.0-base.policy|09de543e979fc279f340be0ae216651bad721ce4
 vendor/etc/sap.conf|b5ea86d9d9ee36dc13194474d343dae36f6fa032
 vendor/etc/xtwifi.conf|ac2189707c0016c31846ccec73e8857d7f566605
 vendor/etc/xtra_root_cert.pem|f55a31ec4d9cf8ce2724acadecf00c779f8767db
