@@ -170,6 +170,7 @@ PRODUCT_COPY_FILES += \
     prebuilts/vndk/v30/arm64/arch-arm64-armv8-a/shared/vndk-core/android.hardware.radio.deprecated@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/android.hardware.radio.deprecated@1.0.so
 
 PRODUCT_PACKAGES += \
+    android.frameworks.sensorservice@1.0.vendor \
     android.frameworks.displayservice@1.0_32 \
     android.hardware.camera.device@3.5 \
     android.hardware.camera.provider@2.4-impl \
