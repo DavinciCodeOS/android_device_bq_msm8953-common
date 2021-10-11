@@ -144,6 +144,7 @@ PRODUCT_COPY_FILES += \
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio@2.1-impl \
+    android.hardware.bluetooth@1.0.vendor \
     audio.bluetooth.default \
     libbt-vendor \
     libbase_shim
@@ -248,12 +249,17 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
     android.hardware.drm@1.0-service \
-    android.hardware.drm@1.4-service.clearkey
+    android.hardware.drm@1.4-service.clearkey \
+    android.hardware.drm@1.4.vendor
 
 # IMS
 PRODUCT_PACKAGES += \
     ims-ext-common \
     ims_ext_common.xml
+
+# Gatekeeper
+PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper@1.0.vendor
 
 # IPv6
 PRODUCT_PACKAGES += \
